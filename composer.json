@@ -1,0 +1,81 @@
+{
+	"name" : "fgsl/groupware",
+	"description" : "Groupware",
+	"type" : "groupware",
+	"keywords" : [
+		"Groupware",
+		"Collaboration",
+		"CRM",
+		"Calendar",
+		"Addressbook",
+		"Teamwork",
+		"Tasks",
+		"Timetracking"
+	],
+	"homepage" : "http://www.tine20.org",
+	"license" : "AGPL-3.0",
+	"require" : {
+		"php" : "^7.0",
+		"ext-SPL" : "*",
+		"ext-SimpleXML" : "*",
+		"ext-ctype" : "*",
+		"ext-date" : "*",
+		"ext-dom" : "*",
+		"ext-gd" : "*",
+		"ext-hash" : "*",
+		"ext-iconv" : "*",
+		"ext-json" : "*",
+		"ext-mbstring" : "*",
+		"ext-openssl" : "*",
+		"ext-xml" : "*",
+		"ext-zip" : "*",
+		"doctrine/dbal" : "v2.5.13pl4 as v2.5.13",
+		"doctrine/orm" : "2.5.14pl1 as v2.5.14",
+		"ezyang/htmlpurifier" : "v4.6.0",
+		"giggsey/libphonenumber-for-php" : "^8.10",
+		"http-interop/http-middleware" : "^0.5.0",
+		"lox/xhprof" : "dev-master as 0.1",
+		"mtdowling/cron-expression" : "^1.2 | ^2.0",
+		"nikic/fast-route" : "^1.2",
+		"phpoffice/phpexcel" : "1.8.*",
+		"phpoffice/phpspreadsheet" : "dev-master",
+		"phpoffice/phpword" : "v0.14.0 as v0.13.0",
+		"sabre/dav" : "1.8.*",
+		"sabre/vobject" : "3.5.3pl1 as 2.1.0",
+		"sentry/sentry" : "^1.8",
+		"symfony/config" : "^3.3",
+		"symfony/dependency-injection" : "^3.4",
+		"syncroton/syncroton" : "1.4.3",
+		"twig/twig" : "~1.0",
+		"xenolope/quahog" : "^2.1",
+		"zbateson/mail-mime-parser" : "1.*",
+		"zendframework/zend-authentication" : "^2.6",
+		"zendframework/zend-cache" : "^2.8",
+		"zendframework/zend-config" : "^3.2",
+		"zendframework/zend-console" : "^2.8",
+		"zendframework/zend-diactoros" : "^1.6",
+		"zendframework/zend-db" : "^2.9",
+		"zendframework/zend-http" : "2.5.*",
+		"zendframework/zend-i18n" : "^2.9",
+		"zendframework/zend-inputfilter" : "^2.10",
+		"zendframework/zend-ldap" : "^2.10",
+		"zendframework/zend-mail" : "^2.10",
+		"zendframework/zend-log" : "^2.10",
+		"zendframework/zend-server" : "^2.8",
+		"zendframework/zend-session" : "^2.8",
+		"zendframework/zend-stratigility" : "^2.1"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^6.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Fgsl\\Groupware\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Fgsl\\GroupwareTest\\" : "test/"
+		}
+	}
+}

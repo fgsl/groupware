@@ -1,0 +1,336 @@
+.felamimail-action-encrypt {
+    background-image:url(../../images/icon-set/icon_lock.svg) !important;
+}
+
+.felamimail-action-decrypt {
+    background-image:url(../../images/icon-set/icon_lock_open.svg) !important;
+}
+
+.action_email_flag {
+    background-image:url(../../images/icon-set/icon_flag.svg) !important;
+}
+
+.action_email_reply {
+    background-image:url(../../images/icon-set/icon_email_answer.svg) !important;
+}
+
+.action_email_replyAll {
+    background-image:url(../../images/icon-set/icon_email_answer_all.svg) !important;
+}
+
+.action_email_forward {
+    background-image:url(../../images/icon-set/icon_email_forward.svg) !important;
+}
+
+.action_update_cache {
+    background-image:url(../../images/icon-set/icon_email.svg) !important;
+}
+
+.action_mark_read {
+    background-image:url(../../images/icon-set/icon_email_mark.svg) !important;
+}
+
+
+.action_file {
+    background-image:url(../../images/icon-set/icon_download.svg) !important;
+}
+
+.FelamimailIconCls {
+    background-image:url(../../images/icon-set/icon_email.svg) !important;
+}
+
+.action_folder_emptytrash {
+    background-image:url(../../images/icon-set/icon_trash_empty.svg) !important;
+}
+
+.x-btn .action_saveAsDraft {
+    background-image:url(../../images/icon-set/icon_drafts.svg) !important;
+}
+
+.x-btn .action_saveAsTemplate {
+    background-image:url(../../images/icon-set/icon_folder_template.svg) !important;
+}
+
+.x-btn .action_email_download {
+    background-image:url(../../images/icon-set/icon_download.svg) !important;
+}
+
+/* rule grid actions */
+
+.action_new_rule {
+    background-image:url(../../images/icon-set/icon_action_plus.svg) !important;
+}
+
+.action_move_up {
+    background-image:url(../../images/icon-set/icon_arrow_full_up.svg) !important;
+}
+
+.action_move_down {
+    background-image:url(../../images/icon-set/icon_arrow_full_down.svg) !important;
+}
+
+/* other actions */
+
+.felamimail-action-reading-confirmation {
+    background-image:url(../../images/icon-set/icon_tasks.svg) !important;
+}
+
+
+.felamimail-action-sieve-notification {
+    background-image:url(../../images/icon-set/icon_bell.svg) !important;
+}
+
+/***** flag classes ******/
+
+.flag_unread td{
+    font-weight: bold;
+}
+
+.flag_flagged {
+    color: #ff0000;
+}
+
+.flag_deleted td {
+    text-decoration: line-through;
+    color: #aaaaaa;
+}
+
+.FelamimailFlagIcon {
+    width: 12px;
+    height: 12px;
+    padding-left: 2px;
+}
+
+/**** preview *****/
+
+.preview-panel-felamimail {
+    padding: 5px;
+    overflow: hidden;
+}
+
+.preview-panel-felamimail-headers {
+    background-color: #dddddd;
+    overflow: hidden;
+}
+
+.preview-panel-felamimail-attachments {
+    margin-top: 5px;
+    background-color: #e8e8e8;
+    width: 100%;
+}
+
+/* note: el tyle of html areas underling textarea are copied to iframe*/
+.felamimail-message-body-html, 
+.preview-panel-felamimail-body {
+    overflow: auto;
+    font-size: 13px;
+}
+
+.preview-panel-felamimail-body ul {
+    list-style: circle outside; 
+    margin-left: 20px;
+}
+.preview-panel-felamimail-body ol {
+    list-style: decimal outside; 
+    margin-left: 20px;
+}
+
+.preview-panel-felamimail-body strong { 
+    font-weight: bold; 
+    font-style: inherit;
+}
+
+.preview-panel-felamimail-body em { 
+    font-style: italic; 
+    font-weight: inherit;
+}
+
+.preview-panel-felamimail-body .x-form-textarea {
+    margin-top: 5px;
+    font: normal 13px courier;
+    border: 0;
+}
+
+.felamimail-edit-text-plain .x-form-textarea {
+    font-size: 13px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/***** node classes ******/
+
+.felamimail-node-unread span {
+    font-weight: bold;
+}
+
+.felamimail-node-trash img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_trash.svg);
+}
+
+.felamimail-node-trash-full img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_trash_neg.svg);
+}
+
+.felamimail-node-sent img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_folder_sent.svg);
+}
+
+.felamimail-node-inbox img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_email_in.svg);
+}
+
+.felamimail-node-drafts img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_drafts.svg);
+}
+
+.felamimail-node-templates img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_folder_template.svg);
+}
+
+.felamimail-node-junk img.x-tree-node-icon {
+    background-image:url(../../images/icon-set/icon_trash_neg.svg);
+}
+
+.felamimail-node-unselectable img.x-tree-node-icon {
+    background-image: url(../../images/icon-set/icon_folder.svg);
+    opacity: 0.5;
+}
+
+.felamimail-node-account img.x-tree-node-icon {
+    background-image: url(../../images/icon-set/icon_base.svg);
+}
+
+.felamimail-node-statusbox {
+    padding-right: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.felamimail-node-statusbox-progress {
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.felamimail-node-statusbox-progress-pie {
+    background-image:url(../../images/progress-pie.gif);
+}
+
+.felamimail-node-statusbox-progress-loading {
+    background-image:url(../../library/ExtJS/resources/images/default/tree/loading.gif);
+}
+
+.ext-gecko .felamimail-node-statusbox-unread {
+    -moz-border-radius: 8px;
+}
+
+.felamimail-node-statusbox-unread {
+    border-radius: 8px;
+    background-color: #D9E8FB;
+    color: black;
+    line-height: 16px;
+    margin-top: 1px;
+    padding: 0 5px;
+}
+
+.x-tree-selected .felamimail-node-statusbox-unread {
+    background-color: #FFFFFF;
+}
+
+.felamimail-node-accountfailure {
+    position: absolute;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    background-image:url(../../images/icon-set/icon_failure.svg);
+    margin-right: 10px;
+}
+
+/***** email composing dialog ******/
+
+/* disable grid headers */
+.felamimail-recipient-grid .x-grid3-hd-row, #felamimail-attachment-grid .x-grid3-hd-row {
+    display:none;
+}
+
+.felamimail-recipient-grid .x-grid3 {
+    background-color: #DFE8F6;
+}
+
+.felamimail-recipient-grid tr {
+    border-color: #DFE8F6;  
+}
+
+.felamimail-body-blockquote {
+    margin: 5px 10px 0 3px;
+    padding-left: 10px;
+    border-left: 2px solid #000088;
+}
+
+.x-fmail-uploadrow .x-grid3-cell-inner {
+    background-image:url(../../library/ExtJS/resources/images/default/grid/wait.gif);
+    background-repeat: no-repeat;
+    padding-left: 19px;
+}
+
+.felamimail-recipient-grid .x-grid3-td-type {
+    background-color: #DFE8F6;
+}
+
+.felamimail-recipient-grid .x-grid3-td-address {
+    background-color: white;
+    border: 1px solid #B5B8C8;
+}
+
+.felamimail-recipient-grid .x-grid3-td-address-editing {
+    background-color: transparent;
+    border: 0;
+}
+
+.felamimail-no-email {
+    color: #999999;
+}
+
+.felamimail-recipient-grid {
+    background-image:url(../../library/ExtJS/resources/images/default/grid/wait.gif);
+    background-repeat: no-repeat;
+}
+
+/***** sieve rules ******/
+
+.felamimail-sieverule-disabled {
+    color: #aaaaaa;
+}
+
+.felamimail-sieverule-conjunction {
+    color: #15428b;
+    font: bold 11px tahoma,arial,verdana,sans-serif;
+}
+
+.felamimail-is-external-recipient .x-grid3-col-address {
+    background: yellow;
+}
+
+/***** location renderer ******/
+
+.felamimail-compose-info .x-panel-body {
+    background-color: lightyellow;
+}
+
+.felamimail-location {
+    padding-right: 5px;
+}
+
+.felamimail-location-icon {
+    background-size: 16px;
+    height: 16px;
+    width: 16px;
+    padding-left: 3px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
